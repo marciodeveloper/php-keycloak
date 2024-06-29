@@ -28,15 +28,17 @@ return [
     'redirect_uri' => 'http://localhost:8080/callback',
     'auth_server_url' => 'http://keycloak:8080/realms/seu-realm',
 ];
+```
 
 ## ▶️ Executar o Projeto
 
-### Subir os serviços:
+### Subir os serviços
 
 ```bash
 docker-compose up -d
+```
 
-### Acessar a aplicação:
+### Acessar a aplicação
 
 - Abra seu navegador e acesse [http://localhost:8080](http://localhost:8080)
 - Você será redirecionado para o Keycloak para autenticação.
@@ -58,6 +60,7 @@ docker-compose up -d
 │   ├── index.php            # Ponto de entrada da aplicação
 │   └── callback.php         # Callback do Keycloak
 └── README.md                # Documentação do projeto
+```
 
 ## 🤝 Contribuindo
 
